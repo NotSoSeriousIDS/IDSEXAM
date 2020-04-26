@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="30.0" vgap="30.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <BorderPane prefHeight="600.0" prefWidth="600.0" GridPane.columnIndex="1">
+            <top>
+                <Label text="Drone Emulator" BorderPane.alignment="CENTER" />
+            </top>
+            <center>
+                <Canvas fx:id="canvas" height="500.0" width="500.0" BorderPane.alignment="CENTER" />
+            </center>
+         <bottom>
+            <ButtonBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+              <buttons>
+                <Button mnemonicParsing="false" onAction="#GoDown" text="GoDown" />
+                  <Button mnemonicParsing="false" onAction="#GoUP" text="GoUp" />
+                  <Button mnemonicParsing="false" onAction="#GoRight" text="GoRight" />
+                  <Button mnemonicParsing="false" onAction="#GoLeft" text="GoLeft" />
+                  <Button mnemonicParsing="false" onAction="#initialize" text="Reset" />
+              </buttons>
+            </ButtonBar>
+         </bottom>
+        </BorderPane>
+    </children>
+    <columnConstraints>
+        <ColumnConstraints />
+      <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+</GridPane>

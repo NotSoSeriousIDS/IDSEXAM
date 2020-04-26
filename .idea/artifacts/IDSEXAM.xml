@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="IDSEXAM">
+    <output-path>$PROJECT_DIR$/out/artifacts/IDSEXAM</output-path>
+    <root id="root">
+      <element id="archive" name="IDSEXAM.jar">
+        <element id="module-output" name="IDSEXAM" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/src/sample/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
